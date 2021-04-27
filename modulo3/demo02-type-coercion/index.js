@@ -29,7 +29,7 @@ console.assert(('hello' && 123 === 123, '&& returns the last element'))
 const item  = {
   name: 'Lucas Alves',
   age: 18,
-  //string: 1 se não for priomitivo, chama valueOf
+  //string: 1 se não for primitivo, chama valueOf
   toString(){
     return `Name ${this.name}, Age: ${this.age}`
   },

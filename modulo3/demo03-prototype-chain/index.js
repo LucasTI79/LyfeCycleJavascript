@@ -138,3 +138,4 @@ console.log('=== // === // === // ===')
 // console.log(Object.keys(Supervisor.prototype))
 
 // console.log(new Manager().profitShare() === Supervisor.prototype.profitShare())
+
