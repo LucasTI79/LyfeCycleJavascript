@@ -6,11 +6,14 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon --ignore database.json --experimental-json-modules --exec node src"
+    "dev": "npx nodemon --ignore database.json --experimental-top-level-await --experimental-json-modules --exec node src "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "14.3"
+  },
   "dependencies": {
     "chalk": "^4.1.1",
     "chalk-table": "^1.0.2",
